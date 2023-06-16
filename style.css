@@ -1,0 +1,77 @@
+/* ------------------top------------------ */
+.top-images {
+    height: 50px;
+}
+
+.full-screen {
+    width: 100%;
+    background-size: auto;
+    height: 60vh;
+}
+.indigo-footer {
+    background-color: darkslateblue;
+}
+.style-type{
+    list-style-type:none;
+}
+.qr-scanner {
+    height: 100px;
+    width: 100px;
+}
+.footer-logo {
+    height: 40px;
+    width: 40px;
+}
+.happy-shopping {
+    color: chocolate;
+}
+.apps-gallery {
+    height: 50px;
+    width: 150px;
+}
+.message {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+}
+
+
+@media screen and (max-width:576px) {
+    .top{
+        padding: 7px;
+    }
+    .top-images {
+        height: 30px;
+    }
+    .full-screen {
+        height: 40vh;
+    }
+    .body-imgs {
+        width: 100%;
+        background-size: auto;
+    }
+    .apps-gallery {
+        height: 42px;
+        width: 110px;
+    }
+    .message {
+        right: 15px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px){
+    .top{
+        padding: 10px;
+    }
+    .full-screen {
+        height: 50vh;
+    }
+    .body-imgs {
+        width: 100%;
+        background-size: auto;
+    }
+    
+    .message {
+        right: 35px;
+    }
+}
